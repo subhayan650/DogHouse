@@ -1,0 +1,256 @@
+#top_nav{
+    background-color: #daac00;
+    padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255);
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: none;
+    border-radius: none;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbutton{
+    position: relative;
+    background-color: #00bec9;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+@media only screen and (max-width:1000px){
+    #searchfrom{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+@media only screen and (max-width:500px){
+    #top_nav{
+        padding: 0;
+    }
+}
+
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 30px;
+    /* margin-bottom: 40px; */
+}
+#banner-txt h1{
+    font-size: 70px;
+    color: white;
+    margin-top: 100px;
+}
+
+#banner-txt p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+    
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width:1300px) {
+    #banner-txt h1{
+        font-size: 50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width:900px) {
+    #banner-txt h1{
+        font-size: 40px;
+    }
+    #banner-img img{
+        padding-top: 70px;
+    }
+}
+
+/* Service Section */
+
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    background-color: #fcc302;
+    color: white;
+    border: 2px solid #fcc302;
+}
+#service-img{
+    padding: 5%;
+}
+@media only screen and (max-width:768px) {
+    #service-img{
+        padding-top: 10%;
+    }
+}
+
+ /* Care  */
+ #care{
+     background-color: #fcc302;
+     padding-bottom: 60px;
+ }
+ .care-head{
+    margin-top: 70px;
+    margin-bottom: 40px;
+ }
+ .care-head h2{
+     font-size: 50px;
+ }
+ .care-head p{
+     font-size: 20px;
+ }
+.care-desc{
+    padding-top: 20px;
+}
+ /* service2 */
+ /* Rate  */
+ #rate-button{
+     background-color: #00bec9;
+     border-radius: 50px;
+     padding: 7px 35px;
+     color: white;
+     font-weight: bold;
+ }
+/* Team */
+
+.team-head {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.team-head h1{
+    font-size: 60px;
+}
+.team-head p{
+    font-size: 20px;
+}
+
+
+
+/* Counter */
+#counter{
+    background-image: url("../IMG/IMG12.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* blog */
+
+#blog{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+#blog-text{
+    font-size: 20px;
+}
+#blog-h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#blog-description{
+    border: 1px solid rgb(168, 168, 168);
+    border-top: none;
+    padding: 20px;
+}
+#blog-date,#blog-link{
+    color: #00bec9;
+}
+
+#footer{
+    background-color: #343434;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#footer-search{
+    background-color: #fcc302;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    color: white;
+    left: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+}
+#footer-submit{
+    background-color: #00bec9;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 30px;
+}
+#footer-from{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.submit_icon{
+    font-size: 20px;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-icon{
+    padding-left: 5px;
+    
+}
+
+@media only screen and (max-width:1150px) {
+    #footer-search{
+    max-width: 200px;
+    }
+}
+@media only screen and (max-width:1240px) {
+    #footer-search{
+    max-width: 200px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #footer-search{
+    max-width: 120px;
+    }
+}
+@media only screen and (max-width:930px) {
+    #footer-search{
+    max-width: 120px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #footer-search{
+    max-width: 200px;
+    }
+    #footer{
+        padding: 10px;
+    }
+    #footer h4{
+        margin-top: 50px;
+    }
+}
